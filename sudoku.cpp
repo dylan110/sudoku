@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 /* Êä³öÊı¶À¾ØÕó */
 void Output()
 {
-	ofstream file("sudoko.txt", ios::app);
+	ofstream file("sudoku.txt", ios::app);
 	if (file.is_open())
 	{
 		for (int i = 0; i < 9; i++)
